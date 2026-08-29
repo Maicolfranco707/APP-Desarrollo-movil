@@ -9,13 +9,10 @@ export default function ClassesStarck() {
     return (
         <Stack.Navigator>
             <Stack.Screen 
-            name="Home" 
-            component={ClasesScreen} 
-            options={{headerShown: false, }}
-            />
-            <Stack.Screen
-
+                name="Home" 
+                component={ClasesScreen} 
+                options={{ headerShown: false }}
             />
         </Stack.Navigator>
     )
-     }
+}
